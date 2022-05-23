@@ -87,6 +87,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.2598bb44edcc46dad172.js",
+        "name": "jupyter-cytoscape"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.eea9b2feb2fb6ef9a43b.js",
         "name": "jupyter-igv"
       },
