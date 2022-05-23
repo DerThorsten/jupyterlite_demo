@@ -87,6 +87,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.eea9b2feb2fb6ef9a43b.js",
+        "name": "jupyter-igv"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.6375e54406c677384240.js",
         "name": "jupyter-leaflet"
       },
