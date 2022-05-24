@@ -1,6 +1,6 @@
 {
   "name": "@jupyterlite/xeus-wren-kernel",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A wren kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
@@ -91,7 +91,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.c2f83b94be82afd02dbe.js",
+      "load": "static/remoteEntry.6e7c2ba8038680301a15.js",
       "extension": "./extension",
       "style": "./style"
     }

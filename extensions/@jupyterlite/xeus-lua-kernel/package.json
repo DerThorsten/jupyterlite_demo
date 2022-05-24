@@ -1,6 +1,6 @@
 {
   "name": "@jupyterlite/xeus-lua-kernel",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "A Lua kernel for JupyterLite, powered by Xeus",
   "keywords": [
     "jupyter",
@@ -91,7 +91,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.444cde1d553878a66dd2.js",
+      "load": "static/remoteEntry.474e8c97c4fcd403d723.js",
       "extension": "./extension",
       "style": "./style"
     }

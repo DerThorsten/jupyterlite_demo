@@ -42,7 +42,7 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.444cde1d553878a66dd2.js",
+        "load": "static/remoteEntry.474e8c97c4fcd403d723.js",
         "name": "@jupyterlite/xeus-lua-kernel",
         "style": "./style"
       },
@@ -56,7 +56,7 @@
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.c2f83b94be82afd02dbe.js",
+        "load": "static/remoteEntry.6e7c2ba8038680301a15.js",
         "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
       },
