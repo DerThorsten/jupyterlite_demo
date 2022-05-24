@@ -1,6 +1,6 @@
 {
   "name": "jupyter-leaflet",
-  "version": "0.16.0",
+  "version": "0.15.0",
   "description": "jupyter - leaflet bridge",
   "keywords": [
     "jupyter",
@@ -16,13 +16,12 @@
   "author": "Project Jupyter",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack && jupyter labextension build .",
+    "build": "webpack",
+    "build:extensions": "webpack && jupyter labextension build .",
     "clean": "rimraf dist/ && rimraf ../ipyleaflet/labextension/ && rimraf ../ipyleaflet/nbextension",
     "prepublish": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "run-p watch:src watch:labextension",
-    "watch:src": "webpack --watch",
-    "watch:labextension": "jupyter labextension watch ."
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "@jupyter-widgets/base": "^2 || ^3 || ^4.0.0",
@@ -54,7 +53,6 @@
     "file-loader": "^5.0.2",
     "install": "^0.13.0",
     "npm": "^6.14.5",
-    "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.1",
     "style-loader": "^1.1.2",
     "webpack": "^5",
@@ -63,7 +61,6 @@
   "jupyterlab": {
     "extension": "src/jupyterlab-plugin",
     "outputDir": "../ipyleaflet/labextension",
-    "webpackConfig": "webpack.lab.config.js",
     "sharedPackages": {
       "@jupyter-widgets/base": {
         "bundled": false,
@@ -71,7 +68,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.6375e54406c677384240.js",
+      "load": "static/remoteEntry.8f5cefaa26fbae099326.js",
       "extension": "./extension"
     }
   }

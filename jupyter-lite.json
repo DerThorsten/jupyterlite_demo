@@ -41,43 +41,24 @@
       },
       {
         "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.8dcc730aedc487734a23.js",
-        "name": "@jupyterlite/webrtc-docprovider",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.f69e84c5aaec83c179ca.js",
+        "load": "static/remoteEntry.444cde1d553878a66dd2.js",
         "name": "@jupyterlite/xeus-lua-kernel",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.960d5d0f875a651e597f.js",
+        "load": "static/remoteEntry.098ba362c471964915fd.js",
         "name": "@jupyterlite/xeus-sqlite-kernel",
         "style": "./style"
       },
       {
         "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.6e7c2ba8038680301a15.js",
+        "load": "static/remoteEntry.c2f83b94be82afd02dbe.js",
         "name": "@jupyterlite/xeus-wren-kernel",
         "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.bf6b3192a558615425cd.js",
-        "name": "@telamonian/theme-darcula"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.145e469029155b53b350.js",
-        "name": "@timkpaine/jupyterlab_miami_nights"
       },
       {
         "extension": "./extension",
@@ -112,13 +93,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.6375e54406c677384240.js",
+        "load": "static/remoteEntry.8f5cefaa26fbae099326.js",
         "name": "jupyter-leaflet"
       },
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.509ecd914d0df11eb8e1.js",
+        "load": "static/remoteEntry.0a859bd5f4f46047146d.js",
         "name": "jupyter-matplotlib"
       },
       {
@@ -131,9 +112,15 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.8f896d6ad92823566c46.js",
-        "name": "jupyterlab-drawio",
+        "load": "static/remoteEntry.8fe64f9bb3e5c3f2600f.js",
+        "name": "jupyterlab-filesystem-access",
         "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.a2386129d8839899fef1.js",
+        "name": "jupyterlab-night"
       },
       {
         "extension": "./extension",
@@ -141,6 +128,13 @@
         "load": "static/remoteEntry.730e734f0ef88fa439e8.js",
         "mimeExtension": "./mimeExtension",
         "name": "jupyterlab-plotly"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.034f4c6f7f5d4eb9c65a.js",
+        "name": "jupyterlab-stickyland",
+        "style": "./style"
       },
       {
         "extension": "./extension",
